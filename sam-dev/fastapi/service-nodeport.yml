@@ -4,7 +4,7 @@
    name: fastapi-service
    namespace: sam-dev
  spec:
-   type: NodePort
+   type: LoadBalancer
    ports:
      - name: http
        port: 80
